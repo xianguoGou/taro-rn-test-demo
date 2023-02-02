@@ -1,0 +1,35 @@
+
+// h5 样式适配
+.weui-switch {
+  width: 94px !important;
+  height: 56px !important;
+}
+.weui-switch::after {
+  width: 48px;
+  height: 48px;
+  top: 2px;
+}
+.weui-switch::before {
+  background-color: transparent;
+}
+
+body {
+  line-height: initial;
+}
+
+.on-trial_overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 600;
+  background-color: #ccc;
+  opacity: 0.3;
+}
+
+/** 容器高度铺满屏幕 */
+#app > div,
+#app > div .taro_page {
+  height: 100%;
+}
